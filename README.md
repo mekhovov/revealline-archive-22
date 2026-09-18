@@ -1,2 +1,15 @@
-# revealline-archive-22
-Immutable original RevealLine v0.60.9 release archive
+# RevealLine archive 22
+
+Retain the exact published original v0.60.9 while later editions become current. This repository contains small original metadata and bounded publication tools inherited from approved Archive21. Hosted preparation fetches the published ZIP, verifies every member against its original manifest, and removes its temporary ZIP. It never rebuilds the game or commits expanded payload files.
+
+The complete expected site is **698 files / 313,221,998 bytes**, leaving **486,778,002 bytes** under the unchanged 800,000,000-byte cap. All 690 original manifest members are retained. The root links directly to v0.60.9; Release explorer retains the approved immediate redirect and visible fallback to the main live catalog. Original metadata, source qualification, annotated tag and source identity stay unchanged. An authored inventory is an expectation, not deployment evidence.
+
+## Review and deployment
+
+Create a README-only main seed, then adopt only the sixteen reviewed files on a codex branch against that actual seed. The preparation worktree derives from Archive21 for diff review only; never push its history to Archive21 or treat its HEAD as an Archive22 source. Review the new repository's actual seed, commit, PR and merged head independently. Configure Actions Pages and a main-only github-pages environment before merging. Both workflow jobs are main-only. One main push starts deployment; manual dispatch is for a recorded necessary retry, never a duplicate running deployment.
+
+The workflow pins a13ab970's original ZIP extractor and tests, verifies the annotated v0.60.9 tag, original metadata/source/qualification, every extracted member and the complete inventory. Preserve contents-read and deploy-only Pages/id-token permissions, the 3 GiB runner free-space floor, 800 MB/20,000-file limits and failure receipts. Run the small offline archive and extractor fixture suites locally; do not run full extraction on a constrained local disk.
+
+After the real deployment, retain actual commit/tree/run/attempt/jobs/deployment/status and small receipt artifact descriptors. Audit all expected public bytes with fresh before/after authority checks, then separately exercise archived title, actual flight, Pause/Resume and Release explorer → current main catalog → Back. Only then may the main publisher append this archive's admission. This new archive repository path has no predecessor inventory; do not fabricate a predecessor-preservation claim. The main project and archive project paths share the https://mekhovov.github.io origin. Actual save availability, isolation and compatibility depend on the application’s storage namespaces and version behavior and require separate verification; no migration or isolation result is claimed here. No physical hardware, listening, offline or whole-phase acceptance follows.
+
+The future main publication must preserve all 80 existing catalog records and all 21 prior admissions. Existing archive owners and URLs stay unchanged. After retention acceptance, v0.60.9 changes from current-main ownership to archive-22 only as part of a separately reviewed next-release selector. A future v0.61.0 append requires its own exact metadata/capacity/preservation review and public acceptance; it is not included here. Never overwrite release assets or raise the cap.

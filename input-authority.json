@@ -1,0 +1,132 @@
+{
+  "status": "PROPOSAL_ONLY_NOT_CREATED_OR_DEPLOYED",
+  "repository": "mekhovov/revealline-archive-22",
+  "sourceRepository": "mekhovov/revealline",
+  "releaseId": 391164971,
+  "releasePublishedAt": "2026-09-18T02:22:35Z",
+  "sourceRevision": "628e95daf403082768cdcf900a8ea1d1ef4629a2",
+  "sourceTree": "304acdf23c8ef9c465e61e8338b43a69aebfdca5",
+  "tagObject": "84a5cb8d0d0f8d5edb9811f81c00de5e96a512d0",
+  "originalAssets": [
+    {
+      "name": "distribution.zip",
+      "bytes": 313264696,
+      "sha256": "a1d9f73fa49521dda8543fa7581892d32f0ca13f6c38e9c05677d6d8fbd7397e",
+      "releaseAssetId": 571591361,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/distribution.zip"
+    },
+    {
+      "name": "distribution.zip.sha256",
+      "bytes": 83,
+      "sha256": "893ce60e0923dbc76eee5488242e896ff6e0120ee7fbc30fc3955b3e3b80cc77",
+      "releaseAssetId": 571582974,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/distribution.zip.sha256"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 127378,
+      "sha256": "291f670c35e2b487f3914d2456aca11ee4b54c089595bd2825e090743ae404f5",
+      "releaseAssetId": 571582968,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/manifest.json"
+    },
+    {
+      "name": "qualification-evidence-record.json",
+      "bytes": 12762,
+      "sha256": "5001978051b151be6e47eb0152bd900a628708973a128cf28cb488c6e622f63c",
+      "releaseAssetId": 571583020,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/qualification-evidence-record.json"
+    },
+    {
+      "name": "release.json",
+      "bytes": 465,
+      "sha256": "629b09175d48ee333dbe265fdbdce58d07fe3a7d3bb024ec9f9c6fba53138013",
+      "releaseAssetId": 571582972,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/release.json"
+    },
+    {
+      "name": "source-qualification-evidence.zip",
+      "bytes": 2000802,
+      "sha256": "7d663e7649418b867bd1a54d390e76d770ef20e23125276f7d080f5cb1086d8f",
+      "releaseAssetId": 571582967,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/source-qualification-evidence.zip"
+    },
+    {
+      "name": "source-qualification.json",
+      "bytes": 75425,
+      "sha256": "0b8fdff6a5946223b07a496b05a5ce1556a6b2b62f6f247100c64c6b6b407cd4",
+      "releaseAssetId": 571582969,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/source-qualification.json"
+    },
+    {
+      "name": "source.tar",
+      "bytes": 1053491200,
+      "sha256": "0e9dfeaf2a1b118586bd78359a551867ee993a9df7b669d78b07c09791c512b4",
+      "releaseAssetId": 571590355,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/source.tar"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 1914,
+      "sha256": "f87ddf19bbc233b1b4ee81a3e5d96ce6aec2d6363e492b58f97a5502c73c6cec",
+      "releaseAssetId": 571583018,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/verification.json"
+    }
+  ],
+  "originalDistribution": {
+    "name": "distribution.zip",
+    "bytes": 313264696,
+    "sha256": "a1d9f73fa49521dda8543fa7581892d32f0ca13f6c38e9c05677d6d8fbd7397e",
+    "releaseAssetId": 571591361,
+    "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/distribution.zip"
+  },
+  "originalMetadata": [
+    {
+      "path": "metadata/v0.60.9/release.json",
+      "gitSource": "6cbb4c32a82ca7f76e54e0e4dcf34aaa75a1cf01:publishing/pages-controller/metadata/v0.60.9/release.json",
+      "name": "release.json",
+      "bytes": 465,
+      "sha256": "629b09175d48ee333dbe265fdbdce58d07fe3a7d3bb024ec9f9c6fba53138013",
+      "releaseAssetId": 571582972,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/release.json"
+    },
+    {
+      "path": "metadata/v0.60.9/manifest.json",
+      "gitSource": "6cbb4c32a82ca7f76e54e0e4dcf34aaa75a1cf01:publishing/pages-controller/metadata/v0.60.9/manifest.json",
+      "name": "manifest.json",
+      "bytes": 127378,
+      "sha256": "291f670c35e2b487f3914d2456aca11ee4b54c089595bd2825e090743ae404f5",
+      "releaseAssetId": 571582968,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/manifest.json"
+    },
+    {
+      "path": "metadata/v0.60.9/distribution.zip.sha256",
+      "gitSource": "6cbb4c32a82ca7f76e54e0e4dcf34aaa75a1cf01:publishing/pages-controller/metadata/v0.60.9/distribution.zip.sha256",
+      "name": "distribution.zip.sha256",
+      "bytes": 83,
+      "sha256": "893ce60e0923dbc76eee5488242e896ff6e0120ee7fbc30fc3955b3e3b80cc77",
+      "releaseAssetId": 571582974,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/distribution.zip.sha256"
+    },
+    {
+      "path": "metadata/v0.60.9/source-qualification.json",
+      "gitSource": "6cbb4c32a82ca7f76e54e0e4dcf34aaa75a1cf01:publishing/pages-controller/evidence/current-v0609/source-qualification.json",
+      "name": "source-qualification.json",
+      "bytes": 75425,
+      "sha256": "0b8fdff6a5946223b07a496b05a5ce1556a6b2b62f6f247100c64c6b6b407cd4",
+      "releaseAssetId": 571582969,
+      "url": "https://github.com/mekhovov/revealline/releases/download/v0.60.9/source-qualification.json"
+    }
+  ],
+  "templateRepository": "mekhovov/revealline-archive-21",
+  "templateAcceptedMerge": "44d383dbae4c1d95cf59512b21d2524e191937e6",
+  "localEquivalentTemplateCommit": "ff70f75bc656addd591ac04bacc7faa19603ed90",
+  "templateTree": "668e425a0f4fa0dc0cf7d0376e581482c5213767",
+  "publisherAuthorityCutoff": "6cbb4c32a82ca7f76e54e0e4dcf34aaa75a1cf01",
+  "currentPublic609AcceptanceScope": "ACCEPTED_SCOPED_PUBLIC_MOTION_SLIDER_RELEASE",
+  "payloadSource": "Exact published original ZIP; hosted extraction only, no rebuild or local payload copy",
+  "actualRepositoryId": null,
+  "actualSeedCommit": null,
+  "actualArchiveCommit": null,
+  "actualDeploymentId": null,
+  "publicAcceptance": null
+}
