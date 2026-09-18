@@ -233,19 +233,27 @@ class CohortTests(unittest.TestCase):
 class CommittedMetadataTests(unittest.TestCase):
     def test_exact_original_metadata_and_source_qualification(self):
         lock, inventory = locked_inputs(ROOT)
-        self.assertEqual((lock['expectedFiles'], lock['expectedBytes']), (698, 313221998))
-        self.assertEqual([r['version'] for r in lock['releases']], ['v0.60.9'])
+        self.assertEqual((lock['expectedFiles'], lock['expectedBytes']), (1393, 626457828))
+        self.assertEqual([r['version'] for r in lock['releases']], ['v0.60.9', 'v0.61.0'])
         release = lock['releases'][0]
         self.assertEqual(release['tagObject'], '84a5cb8d0d0f8d5edb9811f81c00de5e96a512d0')
         self.assertEqual(release['sourceRevision'], '628e95daf403082768cdcf900a8ea1d1ef4629a2')
         self.assertEqual(release['sourceTree'], '304acdf23c8ef9c465e61e8338b43a69aebfdca5')
         self.assertEqual(release['sourceQualification'], {'sha256': '0b8fdff6a5946223b07a496b05a5ce1556a6b2b62f6f247100c64c6b6b407cd4', 'bytes': 75425})
         rows = [row for row in inventory['files'] if row['path'].endswith('/source-qualification.json')]
-        self.assertEqual(len(rows), 1)
+        self.assertEqual(len(rows), 2)
         self.assertEqual(rows[0]['bytes'], 75425)
         cohort = [row for row in inventory['files'] if row['path'].startswith('releases/v0.60.9/')]
         self.assertEqual(len(cohort), 695)
         self.assertEqual(sum(row['bytes'] for row in cohort), 313220604)
+        appended = lock['releases'][1]
+        self.assertEqual(appended['tagObject'], 'dd422ed4a4613ae66f2d803b6dcde7fd945d41dd')
+        self.assertEqual(appended['sourceRevision'], 'fc2c7af6b22c703cc3bb2c081579878b7510f667')
+        self.assertEqual(appended['sourceTree'], 'bf11a670ac53a31d58b79540650229160bacd486')
+        self.assertEqual(appended['sourceQualification'], {'sha256': 'c8f3f40e34ed7e26bcfda123423ddc59e2bf01044d0ade69f9da04b6b895e191', 'bytes': 78105})
+        appended_rows = [row for row in inventory['files'] if row['path'].startswith('releases/v0.61.0/')]
+        self.assertEqual(len(appended_rows), 695)
+        self.assertEqual(sum(row['bytes'] for row in appended_rows), 313235751)
 
     def test_changed_or_wrong_identity_qualification_refuses(self):
         import shutil
