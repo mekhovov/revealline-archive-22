@@ -1,0 +1,65 @@
+{
+  "status": "APPEND_CANDIDATE_NOT_DEPLOYED",
+  "at": "2026-09-18T04:31:20.540818+00:00",
+  "archiveBase": "625fb9aeeef8915f65c3a14cf5d9525bda911778",
+  "publisherSource": "b2295577461a5792baa37a1ef4c2f9dbdbc75ae9",
+  "source": {
+    "version": "v0.61.0",
+    "sourceRevision": "fc2c7af6b22c703cc3bb2c081579878b7510f667",
+    "sourceTree": "bf11a670ac53a31d58b79540650229160bacd486",
+    "tagObject": "dd422ed4a4613ae66f2d803b6dcde7fd945d41dd",
+    "distributionSha256": "68bdc7e68c29676ca145d18fc35b41019eceab47558788381ae969c38fc00739",
+    "distributionBytes": 313277163,
+    "metadata": {
+      "release.json": "771334f1c965a2781a86b99958a245271a1eb706d0bcda983c37d48ee008f232",
+      "manifest.json": "0d60dd1c929999acea12ddf66b4201dd0913e689bb6e5f4a925bb739fb1de75c",
+      "distribution.zip.sha256": "52172e0c20f77d655768b5a6328dac23b6e412712615a8375ecc5f316df00829"
+    },
+    "sourceQualification": {
+      "sha256": "c8f3f40e34ed7e26bcfda123423ddc59e2bf01044d0ade69f9da04b6b895e191",
+      "bytes": 78105
+    }
+  },
+  "releaseId": 391186371,
+  "releasePublishedAt": "2026-09-18T03:38:14Z",
+  "metadataOriginals": [
+    {
+      "path": "metadata/v0.61.0/release.json",
+      "gitSource": "b2295577461a5792baa37a1ef4c2f9dbdbc75ae9:publishing/pages-controller/metadata/v0.61.0/release.json",
+      "bytes": 465,
+      "sha256": "771334f1c965a2781a86b99958a245271a1eb706d0bcda983c37d48ee008f232",
+      "releaseAssetId": 571678573
+    },
+    {
+      "path": "metadata/v0.61.0/manifest.json",
+      "gitSource": "b2295577461a5792baa37a1ef4c2f9dbdbc75ae9:publishing/pages-controller/metadata/v0.61.0/manifest.json",
+      "bytes": 127378,
+      "sha256": "0d60dd1c929999acea12ddf66b4201dd0913e689bb6e5f4a925bb739fb1de75c",
+      "releaseAssetId": 571678570
+    },
+    {
+      "path": "metadata/v0.61.0/distribution.zip.sha256",
+      "gitSource": "b2295577461a5792baa37a1ef4c2f9dbdbc75ae9:publishing/pages-controller/metadata/v0.61.0/distribution.zip.sha256",
+      "bytes": 83,
+      "sha256": "52172e0c20f77d655768b5a6328dac23b6e412712615a8375ecc5f316df00829",
+      "releaseAssetId": 571678571
+    },
+    {
+      "path": "metadata/v0.61.0/source-qualification.json",
+      "gitSource": "b2295577461a5792baa37a1ef4c2f9dbdbc75ae9:publishing/pages-controller/evidence/current-v0610/source-qualification.json",
+      "bytes": 78105,
+      "sha256": "c8f3f40e34ed7e26bcfda123423ddc59e2bf01044d0ade69f9da04b6b895e191",
+      "releaseAssetId": 571678568
+    }
+  ],
+  "priorFiles": 698,
+  "priorUnchangedFiles": 697,
+  "changedPriorFiles": [
+    "index.html"
+  ],
+  "totalFiles": 1393,
+  "totalBytes": 626457828,
+  "spareBytes": 173542172,
+  "publicAcceptance": false,
+  "retainedOriginalAuthority": "input-authority.json"
+}
